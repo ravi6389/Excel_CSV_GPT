@@ -13,8 +13,6 @@ from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
 
-os.environ['SSL_CERT_FILE'] = 'C:\\Users\\RSPRASAD\\AppData\\Local\\.certifi\\cacert.pem'
-GROQ_API_KEY = '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'
 llm = ChatGroq(temperature=0.8, groq_api_key=GROQ_API_KEY, model_name="llama3-70b-8192")
 
 
